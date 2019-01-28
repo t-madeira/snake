@@ -13,7 +13,7 @@ head = snake[0]
 tail = snake[-1]
 
 def move_right():
-    global R, L, U, D, board, head, tail, snake
+    global R, L, U, D,board, head, tail, snake
     if head[0] < 8:
         tail = snake[-1]
         board[head[1]][head[0]+1] = "b"
